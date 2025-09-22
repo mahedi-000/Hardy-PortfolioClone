@@ -36,3 +36,60 @@ nav>ul{
     border-radius: 5px;
     border: none;
 }
+
+header{
+    width: auto;
+   height: 837px;
+   background: #FFF8F3;
+    background-image: url("./images/developer.png"),url("./images/hardy.png");
+    background-repeat: no-repeat;
+    background-position: top 20px left 20px,top 170px right;
+}
+.banner {
+    margin-left: 230px;
+    margin-top: 47px;
+    display: flex;
+    align-items: center;
+}
+
+.banner-inform{
+     max-width: 585px
+}
+.banner-1sttitle{
+    color: var(--Dark-02, #474747);
+     font-size: 40px;
+    font-weight: 600;
+    width: 150px;
+    height: 20px;
+    margin-bottom: 4px;
+
+
+}
+.banner-2ndtitle{
+    color: var(--Dark-01, #181818);
+     font-size: 60px;
+    font-weight: 700;
+    margin-bottom: 20px;
+    width: 498px;
+    height: 100px;
+
+}
+.banner-para{
+    color: var(--Dark-03, #757575);
+
+   font-size: 18px;
+   font-style: normal;
+   font-weight: 400;
+   line-height: 30px; 
+   margin-bottom: 20px;
+}
+.btn-secondary {
+    padding: 18px 36px;
+    color: #FD6E0A;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 700;
+    border-radius: 5px;
+    border: 1px solid #FD6E0A;
+    margin-left: 30px;
+}
